@@ -34,6 +34,13 @@
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
+
+        .cn-bg {
+            background-image: url('./images/bg.jpg');
+            background-position: contain;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 
@@ -263,14 +270,17 @@
             <div class="w-4/5 mx-auto">
                 <div class="flex flex-col items-center gap-8">
                     <div class="mt-12">
-                        <button class="text-white font-bold w-[220px] bg-[#388E3C] hover:bg-[#2C6C3A] px-5 py-3 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
+                        <button
+                            class="text-white font-bold w-[220px] bg-[#388E3C] hover:bg-[#2C6C3A] px-5 py-3 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
                             <i class="fa-solid fa-star text-white mr-2"></i> Read Our Reviews
                         </button>
                     </div>
                     <div class="md:w-[60%] w-full text-center space-y-8">
                         <h3 class="text-[#2C6C3A] font-bold md:text-[40px] text-3xl">What Our Customers Say</h3>
                         <p class="text-[#1B5E20] font-medium md:text-lg text-[16px]">
-                            Our customers are at the heart of everything we do. Here’s what they have to say about their experiences with us. We take pride in their feedback and continually strive to exceed their expectations.
+                            Our customers are at the heart of everything we do. Here’s what they have to say about their
+                            experiences with us. We take pride in their feedback and continually strive to exceed their
+                            expectations.
                         </p>
                     </div>
                 </div>
@@ -278,30 +288,79 @@
                     <div class="bg-white rounded-3xl p-8 shadow-xl flex flex-col items-center text-center">
                         <img src="images/rev-1.jpg" alt="Customer Review 1" class="w-24 h-24 rounded-full mb-4">
                         <h3 class="text-[#2C6C3A] font-bold text-xl mb-3">John Doe</h3>
-                        <p class="text-[#1B5E20]">"The service was outstanding! The team was attentive and ensured every detail was perfect. I couldn’t be happier with the result."</p>
+                        <p class="text-[#1B5E20]">"The service was outstanding! The team was attentive and ensured every
+                            detail was perfect. I couldn’t be happier with the result."</p>
                     </div>
                     <div class="bg-white rounded-3xl p-8 shadow-xl flex flex-col items-center text-center">
                         <img src="images/rev-2.jpeg" alt="Customer Review 2" class="w-24 h-24 rounded-full mb-4">
                         <h3 class="text-[#2C6C3A] font-bold text-xl mb-3">Jane Smith</h3>
-                        <p class="text-[#1B5E20]">"A fantastic experience from start to finish. The project was completed on time, and the quality exceeded my expectations."</p>
+                        <p class="text-[#1B5E20]">"A fantastic experience from start to finish. The project was
+                            completed on time, and the quality exceeded my expectations."</p>
                     </div>
                     <div class="bg-white rounded-3xl p-8 shadow-xl flex flex-col items-center text-center">
                         <img src="images/rev-3.jpg" alt="Customer Review 3" class="w-24 h-24 rounded-full mb-4">
                         <h3 class="text-[#2C6C3A] font-bold text-xl mb-3">Emily Johnson</h3>
-                        <p class="text-[#1B5E20]">"Exceptional work and customer service. The attention to detail was remarkable, and the end product is exactly what I wanted."</p>
+                        <p class="text-[#1B5E20]">"Exceptional work and customer service. The attention to detail was
+                            remarkable, and the end product is exactly what I wanted."</p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        
-        
-        
-       
-        
+
+        <section class="cn-bg m-1">
+            <div class="w-4/5 mx-auto md:py-20 py-8">
+
+                <div class="flex flex-col items-center gap-4">
+
+                    <div>
+                        <button class="text-p1 font-bold w-[166px] bg-[#adf55b71] px-4 py-2   rounded-full"><i
+                                class="fa-solid fa-arrow-right text-p1 mr-2"></i>Let's Connect</button>
+                    </div>
+
+                    <div class="md:w-[60%] w-full text-center space-y-6">
+                        <h3 class="text-text1 font-bold md:text-[40px] text-2xl">Let's Discuss Next Project</h3>
+                        <p class="text-p1 font-medium md:text-base text-[14px]">The barn house captivates with its blend
+                            of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="md:w-4/5 md:mx-auto md:mt-10 mt-6">
+                    <form class="grid md:grid-cols-2 md:grid-row-3 grid-cols-1 md:gap-6 gap-5">
+                        <input type="text" name="name" id=""
+                            class="bg-white rounded-3xl text-formcolor font-medium px-5 py-4 "
+                            placeholder="First Name*">
+                        <input type="text" name="name" id=""
+                            class="bg-white rounded-3xl text-formcolor font-medium px-5 py-4 " placeholder="Last Name*">
+                        <input type="number" name="number" id=""
+                            class="bg-white rounded-3xl text-formcolor font-medium px-5 py-4 "
+                            placeholder="Phone Number*">
+                        <input type="email" name="email" id=""
+                            class="bg-white rounded-3xl text-formcolor font-medium px-5 py-4 "
+                            placeholder="Email Address*">
+                        <textarea name="comment" id=""
+                            class="bg-white rounded-3xl text-formcolor font-medium px-5 py-4 h-[140px] md:col-span-2 "
+                            placeholder="Write your message here"></textarea>
+                    </form>
+                    <div class="mt-8">
+                        <button type="submit"
+                            class="text-[20px] font-extrabold text-black flex items-center gap-2 bg-color1 w-full py-3 justify-center rounded-full">Send
+                            Mail <i
+                                class="fa-solid fa-arrow-right text-2xl text-white -rotate-45 bg-[#1C1C1C] rounded-full h-8 w-8"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
 
 
     </main>
+    
 
 </body>
 
