@@ -47,12 +47,13 @@
 
 <body class="font-manrope bg-white">
     <header class="bg-gradient-to-r from-[#FFFFFF] to-[#ffffff] ...">
-        <nav class="w-4/5 mx-auto flex items-center justify-between md:py-10 py-6">
+        <nav class=" w-4/5 mx-auto flex items-center justify-between md:py-10 py-6">
+            
             <div class="flex items-center gap-1">
-                <i
-                    class="fa-solid fa-arrow-right text-2xl pl-2 text-black -rotate-45 bg-color1 rounded-full h-8 w-8"></i>
+                <i class="fa-solid fa-arrow-right text-2xl pl-2 text-black -rotate-45 bg-color1 rounded-full h-8 w-8"></i>
                 <h3 class="font-extrabold text-[28px] text-black md:text-[32px]">Rinterio</h3>
             </div>
+           
             <div class="hidden md:block">
                 <ul class="text-[#737373] font-medium flex gap-6">
                     <li class="text-[#494949] font-extrabold">Home</li>
@@ -62,24 +63,20 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
+           
             <div class="hidden md:block">
                 <div class="flex items-center gap-3">
-                    <i
-                        class="fa-solid fa-magnifying-glass border-2 rounded-full px-3 py-3 text-[20px] bg-white h-12"></i>
+                    <i class="fa-solid fa-magnifying-glass border-2 rounded-full px-3 py-3 text-[20px] bg-white h-12"></i>
                     <i class="fa-solid fa-cart-shopping border-2 rounded-full px-3 py-3 text-[20px] bg-white h-12"></i>
-                    <button
-                        class="text-[20px] font-extrabold text-black flex items-center gap-2 bg-color1 px-5 py-3 rounded-full">Book
-                        Consult <i
-                            class="fa-solid fa-arrow-right text-2xl text-white -rotate-45 bg-[#1C1C1C] rounded-full h-8 w-8"></i>
+                    <button class="text-[20px] font-extrabold text-black flex items-center gap-2 bg-color1 px-5 py-3 rounded-full">Book Consult <i class="fa-solid fa-arrow-right text-2xl text-white -rotate-45 bg-[#1C1C1C] rounded-full h-8 w-8"></i>
                     </button>
                 </div>
-                <div class="md:hidden block">
-                    <i class="fa-solid fa-bars border-2 rounded-full px-3 py-3 text-[20px] bg-white"></i>
-                </div>
-
-
+            </div>
+            
+             <div class="md:hidden block">
+                <i class="fa-solid fa-bars border-2 rounded-full px-3 py-3 text-[20px] bg-white"></i>
+             </div>
         </nav>
-
         <div class="w-4/5 mx-auto flex flex-col items-center text-center gap-6 md:pb-20 pb-10">
             <img src="images/banner.png" alt="">
             <h1 class="text-text1 md:text-[64px] font-extrabold text-[28px] md:leading-[78px] leading-7">A barn house of
@@ -354,13 +351,41 @@
         </section>
 
 
-
-
-
-
-
     </main>
-    
+    <footer class="bg-text2">
+        <nav class=" w-4/5 mx-auto  flex-col md:py-16 py-10 justify-center">
+
+            <div class="flex flex-col gap-4 items-center">
+                <div class="flex items-center gap-1">
+                    <i
+                        class="fa-solid fa-arrow-right text-2xl pl-2 text-black -rotate-45 bg-color1 rounded-full h-8 w-8"></i>
+                    <h3 class="font-extrabold text-[28px] text-[#E9E9E9] md:text-[32px]">Rinterio</h3>
+                </div>
+                <p class="text-[#737373] font-medium text-center md:w-[60%] w-[90%]">The barn house captivates with its
+                    blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-8 mt-10">
+
+                <div
+                    class="text-[#E9E9E9] font-medium flex md:flex-row flex-col gap-6 md:gap-20 text-center md:text-left">
+                    <p>Home</p>
+                    <p>Service</p>
+                    <p>Portfolio</p>
+                    <p>Blogs</p>
+                    <p>Contact Us</p>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <button
+                        class="md:text-[20px] text-16px font-extrabold text-black flex items-center gap-2 bg-color1 md:px-5 px-20 py-3 rounded-full ">Book
+                        Consult <i
+                            class="fa-solid fa-arrow-right text-2xl text-white -rotate-45 bg-[#1C1C1C] rounded-full h-8 w-8"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </footer>
 
 </body>
 
